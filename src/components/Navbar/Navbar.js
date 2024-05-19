@@ -10,7 +10,7 @@ const Navbar = () => {
     const upload_icon = "https://cdn.iconscout.com/icon/free/png-256/add-video-4941591-4108991.png"
     const notification_icon = "https://st3.depositphotos.com/8089676/32835/v/450/depositphotos_328355014-stock-illustration-notification-bell-icon-black-web.jpg"
     const profile_icon = "https://avatars.githubusercontent.com/u/149025485?v=4"
-    
+    const voice = "https://cdn1.iconfinder.com/data/icons/material-audio-video/21/mic-512.png"
     return (
         <nav className='flex-div'>
             <div className='nav-left flex-div'>
@@ -21,7 +21,10 @@ const Navbar = () => {
                 <div className="input-container flex-div">
                     <input type="text" placeholder='Search' />
                     <button>
-                        <img src={search_icon}  alt="Search" />
+                        <img src={search_icon}  alt="SearchIcon" />
+                    </button>
+                    <button>
+                        <img src={voice}  alt="Voz" />
                     </button>
                 </div>
             </div>

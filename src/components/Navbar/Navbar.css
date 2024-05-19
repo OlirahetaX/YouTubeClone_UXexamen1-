@@ -39,10 +39,11 @@ nav {
 .input-container button {
     top: 50%;
     border: none;
-    background-color: gray; /* Color del botón */
+    background-color: #ccc; /* Color del botón */
     color: white;
     padding: 5px 8px;
-    border-radius: 15px;
+    margin-right: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 

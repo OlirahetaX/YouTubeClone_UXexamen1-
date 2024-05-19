@@ -1,0 +1,65 @@
+nav {
+    padding: 0px 1%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left .menu-icon {
+    width: 45px;
+    margin-right: 25px;
+}
+
+.nav-left .logo {
+    width: 150px;
+}
+
+.nav-middle .search-box {
+    border: 1px solid '#ccc';
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+
+}
+
+.nav-middle .input-container input {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    background: transparent;
+}
+
+.input-container button {
+    top: 50%;
+    border: none;
+    background-color: gray; /* Color del botón */
+    color: white;
+    padding: 5px 8px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-middle .input-container button img {
+    width: 25px;
+}
+
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user_icon {
+    width: 35px;
+}
+
+.nav-right .user-icon {
+    width: 35px;
+    border-radius: 50%;
+}

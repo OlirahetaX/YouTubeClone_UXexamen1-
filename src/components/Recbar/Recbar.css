@@ -1,4 +1,11 @@
 nav {
     margin-top: 2px;
-    position: sticky;
+    position: sticky;
 }
+.recbar {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #fff; /* Cambia el color de fondo si es necesario */
+    padding: 10px;
+  }
